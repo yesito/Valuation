@@ -4,6 +4,7 @@ Esse é um projeto voltado para a automatização do uso de dados na avaliação
 - O arquivo "calculadora do beta" usa informações da biblioteca Y-finance para pegar o preço de fechamento do período selecionado, tirar uma regressão linear, e calcular o coeficiente beta de risco do investimento.
 - O "conversor pdf_para_df" realiza o scraping de balanços patrimoniais, DRE's e fluxos de caixa retornando data frames com as informações nescessárias para o valuation.
 - Com a informação dada por este arquivo, a "calculadora do Wacc" se utiliza da informação dada pela "calculadora do beta" e do "conversor_pdf_df" para estimar o custo de capital da empresa.
+- O arquivo "algoritmo preço de fechamento" é um trecho da "calculadora do beta" mas está, pode, e deve ser usado de forma avulsa do resto do código para calculo do valuation. Eu o uso para outras análises da bolsa de valores junto com o excel.
 
 O projeto está inconcluido sendo nescessária a parte final do programa, em que se calculará o fluxo de caixa descontado e sua projeção para o futuro
 
